@@ -1,3 +1,6 @@
+html{
+    scroll-behavior:smooth;
+}
 li{
     list-style-type: none; /*aucune puce - (agit forme puce en changeant le mot none*/
     font-weight: bold;
@@ -167,4 +170,11 @@ img{
 @font-face{
     src: url('../css/fonts/Creepster-Regular.ttf')
     font-family: 'creepster-regular.ttf';
+}
+footer{
+    background-color:deeppink;
+    padding: 10px;
+}
+p{
+    text-align: center;
 }
