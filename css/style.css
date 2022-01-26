@@ -168,7 +168,7 @@ img{
 }
 
 @font-face{
-    src: url('../css/fonts/Creepster-Regular.ttf')
+    src: url('../css/fonts/Creepster-Regular.ttf');
     font-family: 'creepster-regular.ttf';
 }
 footer{
