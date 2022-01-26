@@ -1,0 +1,170 @@
+li{
+    list-style-type: none; /*aucune puce - (agit forme puce en changeant le mot none*/
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+h1{
+    color: tomato;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color:firebrick;
+}
+ul{
+    display: flex;/*défini l'élément en flexbox*/
+    padding-left: 0;
+    justify-content: space-around; /*espace les liens*/
+    margin: 0;
+  }
+nav{
+    background-color:firebrick;
+   }
+a{
+    display: inline-block;
+    padding: 20px 15px;
+    color:black;
+    text-decoration:none; /*enlève le soulignement*/
+}
+a:hover{ /*au survol*/
+    background-color:orangered; /*change couleur block au survol*/
+    color: gainsboro; /*change couleur texte au survol*/
+}
+body{
+    margin: 0;
+}
+header{
+    background-image: url(../css/images/Crépuscule\ à\ Tokyo.jpg);
+    height: 70vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+h1,header p{
+    text-align:center;
+}
+p{
+    text-align: justify;
+    }
+header div{
+    padding-bottom: 20px;
+}
+main > section{
+    padding: 50px 250px;
+    background-color:rgb(133, 8, 8);
+   }
+
+h2, h3{
+    text-align: center;
+    font-family: 'creepster-regular.ttf'
+}
+
+h1{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+.section-paire{
+    background-color:rgb(224, 43, 43);
+}
+
+img{
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+}
+#div-droite{
+    width :50%;
+    box-sizing:border-box;
+    padding-left: 15px;
+}
+#section-2-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+#img-container img{
+    width:25%;
+    height:auto;
+    box-sizing: border-box;
+    padding: 5px;
+}
+#img-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+input:not([type=radio]), textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding:12px 20px;
+    }
+form{
+    width: 50%;
+}
+#form-container{
+display: flex;
+justify-content: center;
+}
+#input-container {
+    display:flex;
+    justify-content: space-between;
+   
+}
+#input-container div{
+    width: 49%;
+}
+form> div, fieldset{
+    margin-bottom: 12px;
+   }
+input[type=submit]{
+    background-color: rgb(230, 227, 214);
+    cursor: pointer;
+    transition: 0.5s;
+}
+input[type=submit]:hover{
+    background-color:lightsalmon;
+    
+}
+@media(max-width: 1400px){
+    main > section{
+       padding: 50px 125px}
+}    
+
+@media(max-width: 1200px){
+    #img-container img{
+        width: 33.3333%} 
+img{
+    width : 100%
+}
+#div-droite{
+    width:100%;
+    padding-left: 0
+    }
+}
+
+@media(max-width: 992px){
+    #img-container img{
+        width:50%
+    }    
+    form{
+        width:70%
+    }
+}       
+
+@media(max-width: 992px){
+    main > section{
+        padding: 50px 60px
+    }
+
+    #img-container img{
+        width: 100%
+    }
+}
+
+@font-face{
+    src: url('../css/fonts/Creepster-Regular.ttf')
+    font-family: 'creepster-regular.ttf';
+}
