@@ -178,10 +178,10 @@ footer{
 p{
     text-align: center;
 }
-}
+
 #haut{ /*détermine bouton de navigation*/
     color: crimson;
-    background-color: darkblue;
+    background-color:darkred;
     position: fixed;
     bottom: 20px;
     right: 20px;
